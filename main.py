@@ -1,11 +1,15 @@
 # Add the import statements for functions from string_utils.py and equation_utils.py here
 
 
-from string_utils import parse_chemical_reaction
-from string_utils import count_atoms_in_reaction
-from equation_utils import build_equations
-from equation_utils import my_solve
 
+import string_utils
+import equation_utils
+from string_utils import  parse_chemical_reaction
+from string_utils import count_atoms_in_reaction
+from string_utils import  build_equations
+from equation_utils import my_solve
+from equation_utils import sympy
+from sympy import solve as sympy_solve
 def split_at_number (formula):
     digit_location = 1
     for ch in formula[1:]:
