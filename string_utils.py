@@ -1,5 +1,4 @@
 
-
 def split_at_number (formula):
     digit_location = 1
     for ch in formula[1:]:
